@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--Behöver länka till fa-fa-fa för att få tillgång till ikoner som kundvagn.-->
+    <link rel="stylesheet" href="../css/cards.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="icon" href="../images/icon.ico" />
+    <link rel="stylesheet" href="../css/staticMovies.css" />
+    <title>M O V I E V E R S E</title>
+  </head>
+  <body>
+    <header class="header-container">
+      <div class="header_logo-box">
+        <a href="../index.html">
+          <img
+            class="image_logo"
+            src="../images/movieverse.png"
+            alt="Official MovieVerse Logo"
+        /></a>
+      </div>
+      <div class="header_text">
+        <h1>
+          A whole universe of movies delivered at lightspeed for your
+          entertainment!
+        </h1>
+      </div>
+      <div class="kundvagn">
+        <a class="cart_link_icon" href="../cart.html">
+          <i class="fa fa-shopping-cart" style="font-size:30px"></i>
+        </a>
+      </div>
+      <!--Mobilmeny-->
+      <nav class="mobile_menu">
+        <ul class="dropdown">
+          <li class="dropdown-content-first">
+            <a href="#DropMeny">Menu</a>
+          </li>
+          <li class="dropdown-content">
+            <a href="../index.html" class="Link-Home">Home</a>
+          </li>
+          <li class="dropdown-content">
+            <a href="../Movies.html" class="Link-One">Movies</a>
+          </li>
+          <li class="dropdown-content">
+            <a href="../News.html" class="Link-Two">News</a>
+          </li>
+          <li class="dropdown-content">
+            <a href="../FAQ.html" class="Link-Three">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="desktop_menu">
+        <ul>
+          <li>
+            <!--Navigation-->
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../Movies.html">Movies</a>
+          </li>
+          <li>
+            <a href="../News.html">News</a>
+          </li>
+          <li>
+            <a href="../FAQ.html">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="staticMovie-holder">
+      <div class="movie-text">
+        <!--Längre sammanfattning om filmen-->
+        <p class="paragraph">
+          King Agnarr tells a story to his young daughters, Elsa and Anna, about
+          their grandfather, King Runeard. King Runeard decieded that he wanted
+          to build a pond in the Enchanted forrest, their homeland. But a war
+          came about and leads to King Runeards death. The battle aggravate the
+          spirits of Earth, Water, Fire and Air of the forest. The spirits
+          vanished and everyone is trapped in the Enchated Forest by a mystical
+          mist wall.
+        </p>
+        <p class="paragraph">
+          After three years of Elsa being the Queen of Arendelle she hears a odd
+          voice that summons her name. She then decides to follow it and somehow
+          she provokes the elemental spirits. New adventure waits ahead and new
+          problems occur. On the way she found out that her magical powers are
+          capable of so much more.
+        </p>
+        <p class="paragraph">Length: 1h 43m</p>
+        <p class="paragraph">Price: $10</p>
+      </div>
+      <div class="movie">
+        <img src="../images/Frost-2.jpg" alt="Frozen 2 cover" />
+        <div class="btn-holder">
+          <!--Start av tillbakaknapp-->
+          <div class="box">
+            <a class="button" href="#popup1">Buy</a>
+          </div>
+          <div id="popup1" class="overlay">
+            <div class="popup">
+              <h2>Confirmation</h2>
+              <a class="close" href="#">&times;</a>
+              <div class="content">
+                This item has been added to your shopping cart! <br />Do you
+                wish to view your cart?
+              </div>
+              <a href="../cart.html" class="continue">
+                Continue
+              </a>
+            </div>
+          </div>
+          <a href="../index.html" class="btn-back-link"
+            ><div class="btn-back">Back</div></a
+          >
+          <!--Slut av tillbakaknapp-->
+        </div>
+      </div>
+    </section>
+    <footer class="footer-container">
+      <div class="footer-validator">
+        <aside>
+          <a
+            href="https://validator.w3.org/nu/?doc=http://users.du.se/~h19maror/ProjectResponsive/StaticMovies/Frozen.html"
+            target="_blank"
+          >
+            <img src="../images/w3c.png" alt="ikon för w3c validering html"
+          /></a>
+        </aside>
+        <aside>
+          <a
+            href="https://jigsaw.w3.org/css-validator/validator?uri=http://users.du.se/~h19maror/ProjectResponsive/StaticMovies/Frozen.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
+            target="_blank"
+          >
+            <img src="../images/w3c.png" alt="ikon för w3c validering css"
+          /></a>
+        </aside>
+      </div>
+      <div class="footer-transport">
+        <aside>
+          <a href="https://www.klarna.com/se/" target="_blank">
+            <img src="../images/klarna.png" alt="klarnas hemsida"
+          /></a>
+        </aside>
+        <aside>
+          <a href="https://www.logistics.dhl/se-sv/home.html" target="_blank">
+            <img src="../images/dhllogo.jpg" alt="dhls hemsida"
+          /></a>
+        </aside>
+      </div>
+      <div class="footer-aboutus">
+        <aside>
+          <a href="../AboutUs.html">
+            <img
+              src="../images/AboutUs.jpg"
+              alt="personbild som sedan länkar till en 'om oss' sida"
+            />
+          </a>
+        </aside>
+        <p>About us</p>
+      </div>
+    </footer>
+  </body>
+</html>

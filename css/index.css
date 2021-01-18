@@ -1,0 +1,133 @@
+/* Slideshow start */
+.slider-holder
+{
+    width: calc(100%/3*2);
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.image-holder /*sätter width till 300% för image holder, detta är för att få plats med alla 3 bilder i slidern*/
+{
+    width: 300%;
+    position: relative;
+    -webkit-transition: right 1s;
+    -moz-transition: right 1s;
+    -o-transition: right 1s;
+    transition: right 1s;
+    display: flex;
+    flex-flow: row;
+}
+
+.image-holder > .slide-container {
+    width: calc(100%/3); /*matematik för att få plats med alla bilder i slidern*/
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.slide-container > h2 { /*ändra färg och size för h2 i slide container*/
+    width: 100%;
+    color: white;
+    font-size: 3rem;
+}
+
+.slide-container > img {
+    width: 100%;
+}
+
+.article-holder { /*sätt width till 40% och margin, padding color osv på article holder*/
+    width: 40%;
+    padding: 12px;
+    padding-bottom: 24px;
+    margin: 0 auto;
+    background-color: rgba(80,20,20,0.4);
+}
+
+footer {
+    background-color: rgb(44, 9, 9);
+    border: 2px solid rgb(19, 3, 3);
+    width: 100%;
+}
+
+.footer-container { /*sätt misc styles för footer container*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.footer-transport { /*wrappa footer transport och sätt width till 50%*/
+    display:flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+.footer-transport > aside {
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.footer-validator {
+    padding: 10px;
+}
+
+.footer-aboutus {
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 991.98px) { /*vid max width 991.98px sätt article holder till 80% width*/
+    .article-holder {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767.98px) {  /*vändra margin width padding osv för sliderholder och article holder vid widths upp till 767px */
+    .article-holder {
+        padding: 8px;
+        margin-bottom: 12px;
+    }
+
+    .slider-holder {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+#slider-image-1:target ~ .image-holder /*bild 1 är vid right 0%*/
+{
+    right: 0%;
+}
+
+#slider-image-2:target ~ .image-holder /*bild 2 är vid right 100%*/
+{
+    right: 100%;
+}
+
+#slider-image-3:target ~ .image-holder /*bild 2 är vid right 200%*/
+{
+    right: 200%;
+}
+
+.button-holder
+{
+    position: relative;
+}
+
+.slider-change /*sätt inline block för slider change och sätt hieght ch width till 50px*/ 
+{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: lightgrey;
+}
+/*Slideshow slut*/
+
+@media (max-width: 1200px) { /*vid max widht 1200px sätt image logo width till 60%*/
+    .image_logo {
+        width: 60%;
+    }
+}

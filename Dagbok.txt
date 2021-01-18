@@ -1,0 +1,68 @@
+Dag 1 (20-12-2019):
+    Start 1:13 PM -> Slut 3:30PM
+    Martin, Marko, Johan, Robert. Är närvarande via Discord.
+    Tema: Filmsajt - hyra och köpa? - Media? digitalt - 
+    Färger: Röd & Mörkgrå (?)  - ("Rött betyder rörelse och spänning". Foretagande.se)
+    Namn: MovieVerse
+    Catchphrase: "A whole universe of movies delivered at lightspeed for your entertainment!"
+    Keywords: Film, Media, Hyra, Köpa, digital media, 
+    SF BIO, Filmstaden, Swefilmer, Viaplay, Netflix, Youtube, Movieplay
+
+    Efter diskussion inom gruppen har vi kommit fram till ett färgtema, namn på hemsidan,
+    vad hemsidan ska handla om, etc.
+    Anledningen till varför vi valde ett rött och svart färgtema är för att den röda färgen symboliserar och
+    ger användaren en känsla av spänning och rörelse. Den svarta färgen är tänkt att imitera rummets stämning i både
+    en biosalong och vid en hemmabiokväll, den svarta färgen står även i kontrast till den röda färgen, så färgblinda
+    användare inte har några problem med att navigera och tolka hemsidan.
+    Vi gjorde cards för framsidan, navigationsmenyn för desktop och mobil. 
+    Movieverse logon är designad, samt en tillhörande ikon för tabben.
+    
+    To Do Left:
+                sätta Kundvagnen där uppe till höger 
+                Fixa Slideshow för bilder innan cards
+
+
+Dag 2 (22-12-2019):
+    Start 12am -> Slut ()
+    Martin, Marko, Johan, Robert blev trött.
+
+    Började arbeta med footer
+    Nästan klar med skrivandet av despcriptions/summary av alla filmer
+    fixade lite media queries
+    vi började med CSS slideshowen
+
+    To Do Left:
+        Sätta Kungvagnen där uppe till höger
+        Kolla vafan slideshowen betyder
+        Lägg till text i slideshowen till höger och vänster.
+        göra nästa sida/sidorna
+        fixa bilderna för footer
+
+    3 sidorna
+    1: F&Q
+    2: Lista 
+    3: kontakt
+
+Dag 3 (29-12-2019)
+    Start 12am -> Slut
+    Marko, Johan, Robert
+
+    Dem skrev 2 rader kod :) 
+
+Dag 4 (30-12-2019)
+    start närsom
+    Johan, Robert, Martin
+
+
+Dag 5 (1-2-2020)
+    start nu
+    Johan, robert, marko, martin
+
+    vi gjorde mycket progress. statiska sidona är klara (behöver bara sammanfatta)
+    kundvagn klar, sliden är inte fuckad.
+    "om oss" håller på att justeras
+    .css filerna är sorterade.
+
+    To do left:
+    2 sidorna kvar. (Almost done :D)
+                

@@ -1,0 +1,106 @@
+section.cards-container {
+    width: 50%;
+    margin: 50px auto;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cards-container {/*ändrar all färg på text i cards container till vit*/
+    color: white;
+}
+
+.cards {
+    font-size: 1rem;
+    background-color: black;
+    border: 2px solid rgb(49, 10, 10);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.desc {
+    list-style: none;
+}
+
+.card-title { /*centrerar och ändra font size för titel på cardsen till center & 17px*/
+    text-align: center;
+    font-size: 17px;
+}
+
+.cards-container > .cards {
+    width: calc(100%/3); /*matematik för brdden på .cards*/
+    min-width: 150px;
+    padding: 10px;
+    flex-flow: row wrap;
+}
+
+.cards-container img { /*sätter så att img tar upp max 100% av parent*/
+    display: block;
+    max-width: 100%;
+}
+
+footer { /*footer tar nu upp 100% av sidans bredd*/
+    background-color: rgb(44, 9, 9);
+    border: 2px solid rgb(19, 3, 3);
+    width: 100%;
+}
+
+.footer-container { /*gör footer container till en flexbox on använder
+    justify content för att ge utrymme till itemsen*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.footer-transport {
+    display:flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+.footer-transport > aside {
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.footer-validator {
+    padding: 10px;
+}
+
+.footer-aboutus {
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 1200px) { /*vid en skärmstorlek av högst 1200kpx, sätt width till 50%*/
+    .cards-container > .cards {
+        width: 50%;
+    }
+}
+
+@media (max-width: 991.8px) { /*vid en skärmstolek av höst 991.8px, sätt width till 100% för cards och 50% för cards container */
+    .cards-container > .cards {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    
+    section.cards-container {
+        width: 50%;
+        margin: auto;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 575.98px) { /*vid en max width av 576px, sätt section.cards-containers width till 80%*/
+    section.cards-container {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .cards-container > .cards { /*width på cards till 100%, samt ändra fontsize på cards*/
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+}

@@ -1,0 +1,103 @@
+.movie-section {
+    width: 90%;
+    margin: 10px 20px;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 0 auto;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+}
+
+.movies-h2 {
+    padding-left: 10px;
+}
+
+.genre-ul{ /*sätt flex direction till column för pc*/
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.genre-li {
+    background-color: rgba(0,0,0,0.3);
+    padding: 1.5%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(44, 9, 9);
+    border: 2px solid rgb(19, 3, 3);
+    width: 100%;
+}
+
+.footer-container { /*sätt footer container till row wrap och sätt justicy content till space between för att fixa utrymme*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.footer-transport {
+    display:flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+.footer-transport > aside {
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.footer-validator {
+    padding: 10px;
+}
+
+.footer-aboutus {
+    padding: 10px;
+    color: white;
+}
+
+
+@media (min-width: 576px) { /*vid min width 576px ändra font size för question och answer*/
+    .faq-item-question {
+        font-size: 0.9rem;
+    }
+    .faq-item-answer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 768px) {/*vid min width 768px ändra font size för question och answer*/
+    .faq-item-question {
+        font-size: 1rem;
+    }
+    .faq-item-answer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 992px) { /*vid min width 992px*/
+  .grupp-ul {
+    flex-direction: row; /*ändra ul flex direction till row från column*/
+  }
+  .grupp-section-holder { /*sätt holder till column och ändra width till 80%*/
+    width: 80%;
+    flex-direction: column;
+  }
+  .staticMovie-holder {
+    width: 80%;
+    flex-direction: row;
+  }
+  .faq-item-question {
+    font-size: 1.2rem;
+  }  
+  .faq-item-answer {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1200px) { /*vid max wdith 1200px ändra image logo width till 60%*/
+    .image_logo {
+        width: 60%;
+    }
+}

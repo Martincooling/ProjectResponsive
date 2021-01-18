@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <link rel="stylesheet" href="/css/style.css"/> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <!--Behöver länka till fa-fa-fa för att få tillgång till ikoner som kundvagn.-->
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="icon" href="images/icon.ico" />
+    <title>M O V I E V E R S E</title>
+  </head>
+  <body>
+    <!--Header med logo bild-->
+    <header class="header-container">
+      <div class="header_logo-box">
+        <a href="index.html">
+          <img
+            class="image_logo"
+            src="images/movieverse.png"
+            alt="MovieVerse Official Logo"
+        /></a>
+      </div>
+      <div class="header_text">
+        <!--Titel för hemsidan-->
+        <h1>
+          A whole universe of movies delivered at lightspeed for your
+          entertainment!
+        </h1>
+      </div>
+      <!--Kundvagn-->
+      <div class="kundvagn">
+        <a class="cart_link_icon" href="cart.html">
+          <i class="fa fa-shopping-cart" style="font-size:30px"></i>
+        </a>
+      </div>
+      <!--Mobilmeny-->
+      <nav class="mobile_menu">
+        <ul class="dropdown">
+          <li class="dropdown-content-first">
+            <a href="#DropMeny">Menu</a>
+          </li>
+          <li class="dropdown-content">
+            <a href="index.html" class="Link-Home">Home</a>
+          </li>
+          <li class="dropdown-content">
+            <a href="Movies.html" class="Link-One">Movies</a>
+          </li>
+          <li class="dropdown-content">
+            <a href="News.html" class="Link-Two">News</a>
+          </li>
+          <li class="dropdown-content">
+            <a href="FAQ.html" class="Link-Three">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+      <!--Navigation-->
+      <nav class="desktop_menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="Movies.html">Movies</a>
+          </li>
+          <li>
+            <a href="News.html">News</a>
+          </li>
+          <li>
+            <a href="FAQ.html">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="article-holder">
+      <article class="slider-holder">
+        <!--Slideshow container-->
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+          <a href="StaticMovies/Joker.html" class="slide-container">
+            <h2>Joker (2019)</h2>
+            <img
+              src="images/Joker.jpg"
+              class="slider-image"
+              alt="joker 2019 cover"
+            />
+          </a>
+          <a href="StaticMovies/Lejonkungen.html" class="slide-container">
+            <h2>The Lion King</h2>
+            <img
+              src="images/lionking.jpg"
+              class="slider-image"
+              alt="lionking 2019 cover"
+            />
+          </a>
+          <a href="StaticMovies/JohnWick3.html" class="slide-container">
+            <h2>John Wick 3</h2>
+            <img
+              src="images/john_wick_3_parabellum.jpg"
+              class="slider-image"
+              alt="john wick 3 cover"
+            />
+          </a>
+        </div>
+        <div class="button-holder">
+          <a href="#slider-image-1" class="slider-change"></a>
+          <a href="#slider-image-2" class="slider-change"></a>
+          <!--tog bort #-->
+          <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+      </article>
+    </div>
+    <section class="cards-container">  <!--Card-container där i sätter in bilder för att visa filmerna-->
+      <div class="cards">
+        <aside>
+          <a href="StaticMovies/Joker.html">
+            <img src="images/Joker.jpg" alt="Joker Movie" />
+          </a>
+        </aside>
+        <h3 class="card-title">Joker (2019)</h3>
+        <ul class="desc">
+          <li> <!--Liten sammanfattning om filmen-->
+            Arthur, a hard working clown bringing joy to the world whilst
+            helping his sick mother, sees a drastic turn when finding out the
+            world is a joke and all it does is bring people down even more until
+            they die.
+          </li>
+          <li class="card-title">Click the picture for more info</li>
+        </ul>
+      </div>
+      <div class="cards">
+        <aside>
+          <a href="StaticMovies/ItPart2.html">
+            <img src="images/ITtwo.jpg" alt="It chapter two Movie" />
+          </a>
+        </aside>
+        <h3 class="card-title">IT: Chapter 2</h3>
+        <ul class="desc">
+          <li> <!--Liten sammanfattning om filmen-->
+            Pennywise is back and haunts the losers club once again. Together
+            they have to group up and defeat the monster, maybe for good...
+          </li>
+          <li class="card-title">Click the picture for more info</li>
+        </ul>
+      </div>
+      <div class="cards">
+        <aside>
+          <a href="StaticMovies/JohnWick3.html">
+            <img
+              src="images/john_wick_3_parabellum.jpg"
+              alt="John wick 3 Movie"
+            />
+          </a>
+        </aside>
+        <h3 class="card-title">John Wick 3: Parabellum</h3>
+        <ul class="desc">
+          <li> <!--Liten sammanfattning om filmen-->
+            John Wick is back and has a $14 million contract on his head after
+            breaking a rule on Continetal ground. He must find a way to get out
+            of this mess, but hes not alone.
+          </li>
+          <li class="card-title">Click the picture for more info</li>
+        </ul>
+      </div>
+      <div class="cards">
+        <aside>
+          <a href="StaticMovies/StarWars.html">
+            <img src="images/riseoftheskywalker.jpeg" alt="Star Wars Movie" />
+          </a>
+        </aside>
+        <h3 class="card-title">Star Wars: The Rise Of Skywalker</h3>
+        <ul class="desc">
+          <li> <!--Liten sammanfattning om filmen-->
+            Star Wars, The Rise of the Skywalker, is the last fight in the
+            unending franchise against the emperor palpatine who has been
+            ressurected and tries to end the jedi for good. It's Reys final time
+            to prove that she is a jedi.
+          </li>
+          <li class="card-title">Click the picture for more info</li>
+        </ul>
+      </div>
+      <div class="cards">
+        <aside>
+          <a href="StaticMovies/Jumanji.html">
+            <img
+              src="images/jumanji2.jpg"
+              alt="Jumanji: The next level Movie"
+            />
+          </a>
+        </aside>
+        <h3 class="card-title">Jumanji 2: The Next Level</h3>
+        <ul class="desc">
+          <li> <!--Liten sammanfattning om filmen-->
+            Welcome to Jumanji next level. A new jurney is about to begin when
+            Spencer successfully repaired the game. New level, new quest, new
+            problems. They need to find a way to get out of the game... -again.
+          </li>
+          <li class="card-title">Click the picture for more info</li>
+        </ul>
+      </div>
+      <div class="cards">
+        <aside>
+          <a href="StaticMovies/Frozen.html">
+            <img src="images/Frost-2.jpg" alt="Frost 2 Movie" />
+          </a>
+        </aside>
+        <h3 class="card-title">Frozen 2</h3>
+        <ul class="desc">
+          <li> <!--Liten sammanfattning om filmen-->
+            A new journey has begun for Elsa, who hears weird calls from the
+            north, and takes with her old friends, Olof, Kristoff, Sven and her
+            sister Anna with her.
+          </li>
+          <li class="card-title">Click the picture for more info</li>
+        </ul>
+      </div>
+      <div class="cards">
+        <aside>
+          <a href="StaticMovies/onceuponatime.html">
+            <img
+              src="images/onceuponatimeinhollywood.jpg"
+              alt="Once upon a time in hollywood Movie"
+            />
+          </a>
+        </aside>
+        <h3 class="card-title">Once Upon A Time In Hollywood</h3>
+        <ul class="desc">
+          <li> <!--Liten sammanfattning om filmen-->
+            It's 1960's and Rick Dalton and his stunt double, Cliff Booth are
+            trying to find fame in new movies to keep their career ongoing.
+          </li>
+          <li class="card-title">Click the picture for more info</li>
+        </ul>
+      </div>
+      <div class="cards">
+        <aside>
+          <a href="StaticMovies/Lejonkungen.html">
+            <img src="images/lionking.jpg" alt="Lion King 2019 Movie" />
+          </a>
+        </aside>
+        <h3 class="card-title">Lionking 2019</h3>
+        <ul class="desc">
+          <li> <!--Liten sammanfattning om filmen-->
+            Simba, a new lion cub, son to the king Mufasa, has arrived. Simba
+            whorship his father very much. But Mufasas brother, Scar, doesn't
+            like that a new, future king is born.
+          </li>
+          <li class="card-title">Click the picture for more info</li>
+        </ul>
+      </div>
+      <div class="cards">
+        <aside>
+          <a href="StaticMovies/everybodyseverything.html">
+            <img
+              src="images/everbodyseverything.jpg"
+              alt="Lil Peep Documetary Movie"
+            />
+          </a>
+        </aside>
+        <h3 class="card-title">Everybody's Everything</h3>
+        <ul class="desc">
+          <li> <!--Liten sammanfattning om filmen-->
+            Gustav Åhr, better known as "Lil Peep" is a recent soundcloud
+            success aswell as a recently diseased. This movie follows the life
+            of Lil Peep from childhood to his later, unfortunate death.
+          </li>
+          <li class="card-title">Click the picture for more info</li>
+        </ul>
+      </div>
+    </section>
+    <!--Footer med länkar-->
+    <footer class="footer-container">
+      <div class="footer-validator">
+        <aside>
+          <a
+            href="https://validator.w3.org/nu/?doc=http://users.du.se/~h19maror/ProjectResponsive/"
+            target="_blank"
+          >
+            <img
+              src="images/w3c.png"
+              alt="Länk och ikon för w3c validering html"
+          /></a>
+        </aside>
+        <aside>
+          <a
+            href="https://jigsaw.w3.org/css-validator/validator?uri=http://users.du.se/~h19maror/ProjectResponsive/&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
+            target="_blank"
+          >
+            <img src="images/w3c.png" alt="länk och ikon för w3c validering css"
+          /></a>
+        </aside>
+      </div>
+      <div class="footer-transport">
+        <aside>
+          <a href="https://www.klarna.com/se/" target="_blank">
+            <img src="images/klarna.png" alt="klarnas hemsida"
+          /></a>
+        </aside>
+        <aside>
+          <a href="https://www.logistics.dhl/se-sv/home.html" target="_blank">
+            <img src="images/dhllogo.jpg" alt="dhls hemsida"
+          /></a>
+        </aside>
+      </div>
+      <div class="footer-aboutus">
+        <aside>
+          <a href="AboutUs.html">
+            <img src="images/AboutUs.jpg" alt="person" />
+          </a>
+        </aside>
+        <p>About us</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+h2 {/* sätter h2's fort storlek till 2 root em*/
+    font-size: 2rem;
+}
+
+.faq-holder-container {
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: rgba(200,200,200,1);
+}
+
+.faq-container > li { /*tar bort alla styles för allt inom li*/
+    list-style-type: none;
+}
+
+.faq-container { /*sätter width till 50% för faq container*/
+    width: 50%;
+    padding: 10px;
+}
+
+.faq-holder-container > h1 {
+    margin: auto;
+    font-size: 2rem;;
+}
+
+.faq-item-question {
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.faq-item-answer { /*ändra font size till 1.2 root em och width till 100% för item answer*/
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+footer { /*sätter */
+    background-color: rgb(44, 9, 9);
+    border: 2px solid rgb(19, 3, 3);
+}
+
+.footer-container { /*sätt footer container till en flexbox och sätt justify content till space between för utrymme*/
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.footer-transport {
+    display:flex;
+    flex-flow: row wrap;
+    width: 50%;
+}
+.footer-transport > aside {
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.footer-validator {
+    padding: 10px;
+}
+
+.footer-aboutus {
+    padding: 10px;
+    color: white;
+}
+
+
+@media (min-width: 576px) { /*vid min width 576px ändra font sizes för question och answers*/
+    .faq-item-question {
+        font-size: 0.9rem;
+    }
+    .faq-item-answer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 768px) { /*vid min width 768px ändra font sizes för question och answers*/
+    .faq-item-question {
+        font-size: 1rem;
+    }
+    .faq-item-answer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 991.8px) { /* vid max width 991.8px sätt width på container till 90%*/
+    .faq-holder-container {
+        width: 90%;
+    }
+
+    .faq-container {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) { /*vid minst 992px ändra font size för answer och question*/
+  .faq-item-question {
+      font-size: 1.2rem;
+  }  
+  .faq-item-answer {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 1200px) { /*vid max width 1200px, sätt width för logot ill 60%*/
+    .image_logo {
+        width: 60%;
+    }
+}
+
+@media (min-height: 1000px) { /*vid min height 1000px, sätt width till 100% och position absolute för footer*/
+    footer {
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+}
